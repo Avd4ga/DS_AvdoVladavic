@@ -8,7 +8,7 @@ import java.util.Stack;
 
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
-
+//D
 public class TwoStackAlgorithm {
     public static Double calculate(String expression) {
         String[] operations = expression.split("\\s+");
