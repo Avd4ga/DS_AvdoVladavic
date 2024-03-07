@@ -9,52 +9,56 @@ import java.util.Stack;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
 
-public class TwoStackAlgorithm<Data> {
-    private static Stack<Double> s1;
-    private static Stack<Character> s2;
-
-
-
+public class TwoStackAlgorithm {
     public static Double calculate(String expression) {
-        // your code here (remove next line)
-
-
-        s1=new Stack<>();
-        s2=new Stack<>();
-        char[] chars=expression.toCharArray();
-        for(int i=0;i<chars.length;i++){
-
-            if(chars[i]>='0' && chars[i]<='9'){
-                s1.push((double) Character.getNumericValue(chars[i]));
-            }else if(chars[i]=='.'){
-                double temp=s1.pop();
-                s1.push(temp+chars[i+1]-temp);
-
-            } else if(chars[i]=='+' ||chars[i]=='-'||chars[i]=='*'||chars[i]=='/'||chars[i]=='%'||chars[i]=='^'||chars[i]=='√'){
-                s2.push(chars[i]);
-            } else if (chars[i]==')') {
-                double num1=s1.pop();
-                double num2=s1.pop();
-                char op=s2.pop();
-                switch (op){
-                    case '+' : s1.push(num1 + num2);
-                        break;
-                    case '-' : s1.push(num2 - num1);
-                        break;
-                    case '*' : s1.push(num2 *  num1);
-                        break;
-                    case '/' : s1.push(num1 /  num2);
-                        break;
-                    case '%' : s1.push(num1 % num2);
-                        break;
-                    case '^' : s1.push(pow(num1,num2));
-                        break;
-                    case '√' : s1.push(sqrt(num2));
-                        break;
+        String[] operations = expression.split("\\s+");
+        Stack<Double> values = new Stack<>();
+        Stack<String> operators = new Stack<>();
+        for (String operation : operations) {
+            if (operation.equals("(")) {
+                continue;
+            } else if (operation.equals("+") || operation.equals("-") ||
+                    operation.equals("*") || operation.equals("/") ||
+                    operation.equals("%") || operation.equals("^") ||
+                    operation.equals("√")) {
+                operators.push(operation);
+            } else if (operation.equals(")")) {
+                String operator = operators.pop();
+                Double secondValue = values.pop();
+                if (operator.equals("√")) {
+                    values.push(Math.sqrt(secondValue));
+                } else {
+                    Double firstValue = values.pop();
+                    Double result;
+                    switch (operator) {
+                        case "+":
+                            result = firstValue + secondValue;
+                            break;
+                        case "-":
+                            result = firstValue - secondValue;
+                            break;
+                        case "*":
+                            result = firstValue * secondValue;
+                            break;
+                        case "/":
+                            result =firstValue / secondValue;
+                            break;
+                        case "%":
+                            result =firstValue % secondValue;
+                            break;
+                        case "^":
+                            result = Math.pow(firstValue, secondValue);
+                            break;
+                        default:
+                            result = (double) 0;
+                            break;
+                    }
+                    values.push(result);
                 }
+            } else {
+                values.push(Double.valueOf(operation));
             }
-
         }
-        return s1.pop();
+        return values.pop();
     }
 }
