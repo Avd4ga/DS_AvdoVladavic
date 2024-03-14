@@ -5,15 +5,17 @@ import week3.labTask.FileUtils;
 import week3.labTask.IPAddress;
 import week3.labTask.IPSearch;
 
+import java.io.IOException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class IPSearchTest {
     // IMPORTANT: DO NOT commit the entire CSV file; add it to .gitignore or keep it outside the repository.
-    public static String filePath = "replace with path to your CSV";
+    public static String filePath = "src/main/java/week3/labTask/IP2LOCATION.csv";
     public static IPAddress[] ipAddresses;
 
     @BeforeAll
-    public static void setUp() {
+    public static void setUp() throws IOException {
         ipAddresses = FileUtils.readFile(filePath);
     }
 
