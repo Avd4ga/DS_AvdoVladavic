@@ -16,7 +16,7 @@ public class BinaryInsertionSort {
     }
 
     public static <Data extends Comparable<Data>> int findInsertionPoint(LinkedList<Data> ll, int high, Data key) {
-        // your code here (next line is a placeholder)
+        // your code here
         int low = 0;
 
         while (low <= high) {
