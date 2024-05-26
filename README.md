@@ -35,7 +35,7 @@ Data Structures and Algorithms @ International Burch University (2023 - 2024)
 - No classes this week
 
 ## Week 9: Radix Sort & Counting Sort
-- [[Week 9] Lecture slides - Quick Sort](https://docs.google.com/presentation/d/10R-XawwHHeSlJjd8zJGPf9auw8huottG5DQE6jVRm9g/edit?usp=sharing)
+- [[Week 9] Lecture slides - Radix Sort & Counting Sort](https://docs.google.com/presentation/d/10R-XawwHHeSlJjd8zJGPf9auw8huottG5DQE6jVRm9g/edit?usp=sharing)
 - [[Week 9] Lab document - Radix Sort Algorithm](https://docs.google.com/document/d/16PnZTafJMEfCJgDZl_3IACbcgLPdg6RbHvTh_8KdYpw/edit?usp=sharing)
 
 ## Week 10: Trees & Binary Heap
@@ -45,6 +45,10 @@ Data Structures and Algorithms @ International Burch University (2023 - 2024)
 ## Week 11: Binary Search Trees
 - [[Week 11] Lecture slides - Binary Search Trees](https://docs.google.com/presentation/d/1Owdx_Uiv6qtc2GPdSWbVd-JJGXm_BJckJbo3sTNmEwc/edit?usp=sharing)
 - [[Week 11] Lab document - Binary Search Tree](https://docs.google.com/document/d/1Y0MAhqW0YRtdpPXR0ZP2POXXuRMC4LEJZHB6InYuIok/edit?usp=sharing)
+
+## Week 12: Balanced Search Trees
+- [[Week 12] Lecture slides - Balanced Search Trees](https://docs.google.com/presentation/d/1tC3zdWwQj-C8F4qlUnyc4dLDssz8jmzNqc3Ipzi1HDM/edit?usp=sharing)
+- [[Week 12] Lab document - Balanced Search Tree](https://docs.google.com/document/d/16d3Dg-sMktGz-J6IZ1tKAV4VOHRQmVM4eaNld6Fey8k/edit?usp=sharing)
 
 ---
 https://ibu.edu.ba @ 2024
