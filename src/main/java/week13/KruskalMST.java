@@ -18,6 +18,7 @@ public class KruskalMST {
 
         // Union-Find data structure - helper structure to
         // check if cycles exist in a graph
+        // UnionFind will have V elements
         UnionFind uf = new UnionFind(G.V());
 
         while (!pq.isEmpty() && mst.size() < G.V() - 1) {
