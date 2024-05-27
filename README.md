@@ -50,5 +50,9 @@ Data Structures and Algorithms @ International Burch University (2023 - 2024)
 - [[Week 12] Lecture slides - Balanced Search Trees](https://docs.google.com/presentation/d/1tC3zdWwQj-C8F4qlUnyc4dLDssz8jmzNqc3Ipzi1HDM/edit?usp=sharing)
 - [[Week 12] Lab document - Balanced Search Tree](https://docs.google.com/document/d/16d3Dg-sMktGz-J6IZ1tKAV4VOHRQmVM4eaNld6Fey8k/edit?usp=sharing)
 
+## Week 13: Graphs
+- [[Week 13] Lecture slides - Graphs](https://docs.google.com/presentation/d/1lFScWnY4RM7BeOSrUDRB6eXIKdxhaLibaVN5HUFrMaY/edit?usp=sharing)
+- [[Week 13] Lab document - Graphs](https://docs.google.com/document/d/1t253v1duUh13n-oodIvHrzNcUYiBJ9RyxXiXRscaluM/edit?usp=sharing)
+
 ---
 https://ibu.edu.ba @ 2024
