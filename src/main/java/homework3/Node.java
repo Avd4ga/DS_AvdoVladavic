@@ -1,5 +1,5 @@
 package homework3;
 
-public class Node<String, Entry> {
+public class Node<Entry> {
     // implement the relevant properties, constructor and methods
 }

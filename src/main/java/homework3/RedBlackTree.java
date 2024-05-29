@@ -2,7 +2,9 @@ package homework3;
 
 import java.util.ArrayList;
 
-public class RedBlackTree<String, Entry> {
+public class RedBlackTree<Entry> {
+    private Node<Entry> root;
+
     public ArrayList<Entry> get(String searchableName) {
         // implement the actual logic (remove next line)
         return null;
