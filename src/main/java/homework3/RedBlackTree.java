@@ -15,7 +15,7 @@ public class RedBlackTree<Entry> {
         // implement the actual logic
     }
 
-    public int[] countRedAndBlackLinks() {
+    public int[] countRedAndBlackEdges() {
         // implement the actual logic (remove next line)
         return null;
     }
