@@ -2,8 +2,8 @@ package homework3;
 
 import java.util.ArrayList;
 
-public class RedBlackTree<Entry> {
-    private Node<Entry> root;
+public class RedBlackTree {
+    private Node root;
 
     public ArrayList<Entry> get(String searchableName) {
         // implement the actual logic (remove next line)
