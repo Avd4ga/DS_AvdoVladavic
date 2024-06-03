@@ -54,5 +54,11 @@ Data Structures and Algorithms @ International Burch University (2023 - 2024)
 - [[Week 13] Lecture slides - Graphs](https://docs.google.com/presentation/d/1lFScWnY4RM7BeOSrUDRB6eXIKdxhaLibaVN5HUFrMaY/edit?usp=sharing)
 - [[Week 13] Lab document - Graphs](https://docs.google.com/document/d/1t253v1duUh13n-oodIvHrzNcUYiBJ9RyxXiXRscaluM/edit?usp=sharing)
 
+## Week 14: Graphs - Part 2
+- [[Week 14] Lecture slides - Graphs - Part 2](https://docs.google.com/presentation/d/1F5971MaypO1ihLzTTlTSwj-g4IDqHMyP4G3MGSojkEw/edit?usp=sharing)
+- [[Week 14] Lab document - Graphs - Part 2](https://docs.google.com/document/d/113IQrHUVala0mxHE1MoXXVDvrvou5QeXjJX0-Z0ICtE/edit?usp=sharing)
+
+## Week 15: Final Exam Preparation
+
 ---
 https://ibu.edu.ba @ 2024
